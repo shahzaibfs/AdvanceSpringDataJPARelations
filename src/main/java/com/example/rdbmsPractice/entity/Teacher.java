@@ -15,6 +15,7 @@ public class Teacher {
     @OneToMany(
             cascade = CascadeType.ALL,
             fetch = FetchType.EAGER
+
     )
     @JoinColumn(
             name = "teacher_id",
